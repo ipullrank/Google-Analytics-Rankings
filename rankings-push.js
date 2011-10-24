@@ -18,8 +18,10 @@ function rankingsPush()
 {
   var url = String(document.referrer);
 
+  var ref = new RegExp("(google)\.([A-z]{2,3}/)|(google)\.([A-z]{2,3})\.([A-z]{2}/)");
+
 	// confirm they came from G
-	if (url.indexOf ("google.com") !=-1)
+	if (ref.test(url))
 	{	
 
 		var urlVars = {};
