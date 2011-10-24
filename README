@@ -1,0 +1,4 @@
+This is a JavaScript function by Michael King that pulls rankings from the parameters on the Google SERPs and pushes them to Google Analytics as a custom variable called Rankings.
+
+For more information on this and its application see John Doherty's post on SEOmoz:
+http://www.seomoz.org/blog/gettings-rankings-into-ga-using-custom-variables
